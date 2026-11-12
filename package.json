@@ -1,0 +1,12 @@
+{
+  "name": "dead-acre",
+  "version": "1.0.0",
+  "description": "Dead Acre: a 2D zombie apocalypse survival game for the browser. Installable as a PWA.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node tests/run.js",
+    "sim": "node tests/sim.js"
+  }
+}
